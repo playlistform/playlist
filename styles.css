@@ -1,0 +1,60 @@
+.body{
+    background-color: #CEF6F5;
+}
+#root{
+    background-color: #EFFBFB;
+}
+#formPadre{
+    background-color: #EFFBFB;
+    z-index: 10000;
+}
+
+#divTema{
+    text-align: center;
+    color: rgb(16, 31, 44);
+}
+#instrucciones{
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+}
+
+
+
+.preguntas{
+    position: relative;
+    margin-top: 2%;
+}
+
+
+
+
+#botonPlaylist{
+    display: none;
+    position: relative;
+    margin-top: 2%;
+}
+#botonValidacion{
+    position: relative;
+    margin-top: 2%;
+    float: left;
+}
+
+#formPadre{
+    width: 85%;
+    position: relative;
+    margin: auto;
+}
+.padre input{
+    height: 50px;
+}
+.padre label{
+    height: 40px;
+    font-size: 20px;
+}
+#error{
+    display: none;
+    margin-top: 2%;
+    /* margin-left: 35%; */
+    float: right;
+}

@@ -1,0 +1,58 @@
+body{
+    /* background-color: #112031; */
+    color: snow;
+    font-family: 'Lato', sans-serif;
+    background-image: url("./img/fondoNegro.jpg");
+}
+#divTitulo{
+    text-align: center;
+}
+
+#divMusica{
+    position: relative;
+    margin-left: 20%;
+}
+.cancion2{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.cancion7{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#mencionesHTitulo{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+#botonMostrar{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+
+
+
+#mencionesHidden{
+    display: none;
+    margin-left: 20%;
+}
+.cancionHidden2{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.cancionHidden5{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+span{
+    font-size: 10px;
+    margin-top: 2%;
+}
