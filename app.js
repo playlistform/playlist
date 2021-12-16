@@ -16,7 +16,7 @@ function validacion(){
 
 
     //Validar si la respuesta es correcta
-    if(pregunta1 == "2019-11-12"){ //Recopila la fecha de manera al reves
+    if(pregunta1 == "2019-11-10"){ //Recopila la fecha de manera al reves
         console.log("Fecha bien")
         buenas += 1;
     }
