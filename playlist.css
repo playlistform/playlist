@@ -7,21 +7,16 @@ body{
 #divTitulo{
     text-align: center;
 }
-
-#divMusica{
+.cancion1{
     position: relative;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 .cancion2{
     position: relative;
     margin-left: 10%;
     margin-top: 3%;
 }
-.cancion7{
-    position: relative;
-    margin-left: 10%;
-    margin-top: 3%;
-}
+
 
 #mencionesHTitulo{
     position: relative;
@@ -40,7 +35,6 @@ body{
 
 #mencionesHidden{
     display: none;
-    margin-left: 20%;
 }
 .cancionHidden2{
     position: relative;
@@ -55,4 +49,61 @@ body{
 span{
     font-size: 10px;
     margin-top: 2%;
+}
+
+@media (max-width: 900px){
+    .divMusica{
+        position: relative;
+        margin-left: 0%;
+    }
+    .cancion2{
+        position: relative;
+        margin-left: 10%;
+        width: 40%;
+    }
+    .cancion1{
+        position: relative;
+        margin-left: 5%;
+        width: 40%;
+    }
+    .cancionHidden1{
+        position: relative;
+        margin-left: 5%;
+        width: 40%;
+    }
+    .cancionHidden2{
+        position: relative;
+        margin-left: 10%;
+        width: 40%;
+    }
+    #botonMostrar{
+        margin-left: 40%;
+    }
+}
+@media (max-width: 563px){
+    .cancion1{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .cancion2{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .cancionHidden1{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .cancionHidden2{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #botonMostrar{
+        margin-left: 35%;
+    }
 }
